@@ -27,11 +27,19 @@ To open these notebooks in Google Colab:
 - Login to your google colab.
 - Open a new notebook. In code cell type: ```!git clone https://github.com/abskjha/p-o-issp-2020.git```
 
-**Note:** Google Colab allow active session upto 12hrs. After 12 hrs, the sessions expires and all the data in the environment is deleted. One of the way to solve this is by saving code and data in google drive and mounting google drive on colab:
+**Note:** Google Colab allow active session upto 12hrs. After 12 hrs, the sessions expires and all the data in the environment is **deleted**. Therefore, **ALWAYS keep the backup**. Another way to solve this is by saving code and data in google drive and mounting google drive on colab:
 
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
 ```
 - The notebooks provided here contains images. In case you are running the code from google drive mount, those link may appear to be broken, change the image path accordingly in the respective markdown cells.
+
+- To run the EEG experiments, you would require to download dataset from the source directly sent to you.
+
+**Disclaimer:**
+
+This sample code is only a sample and is NOT guaranteed to be bug free and production quality. The code provided here is solely for the purpose of learning. This is NOT intended to be used in production environment. You must adapt the code to work with your custom application.
+
+Some part of this code is has been adapted from other sources. Proper references and credits have been provided inside the notebooks. Intimation of any missing source will be appreciated.
 
