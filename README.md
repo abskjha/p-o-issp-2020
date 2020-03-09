@@ -12,4 +12,27 @@ This code is written in python. To use it you will need:
 * Scipy 1.1.0
 * Matplotlib
 * H5py
+* JupyterLab
+* Jupyter Notebook
+
+## Getting started
+
+- This code can be executed in jupyter/ipython notebook environment.
+- Clone the repository, you can directly clone it from inside the jupyter notebook environment using: git clone https://github.com/abskjha/p-o-issp-2020.git
+- Online services like [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb#recent=true), Kaggle etc also provide jupyter notebook environments.
+
+**NOTE:** We don't endorse or promote any of the 3rd party services. All the liabilities rest with the end user.
+
+To open these notebooks in Google Colab:
+
+- Login to your google colab.
+- Open a new notebook. In code cell type: !git clone https://github.com/abskjha/p-o-issp-2020.git
+
+**Note:** Google Colab allow active session upto 12hrs. After 12 hrs, the sessions expires and all the data in the environment is deleted. One of the way to solve this is by saving code and data in google drive and mounting google drive on colab:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+- The notebooks provided here contains images. In case you are running the code from google drive mount, those link may appear to be broken, change the image path accordingly in the respective markdown cells.
 
