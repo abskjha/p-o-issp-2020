@@ -37,7 +37,7 @@ drive.mount('/content/drive')
 
 - To run the EEG experiments, you would require to download dataset from the source directly sent to you.
 
-**Disclaimer:**
+## Disclaimer
 
 This sample code is only a sample and is NOT guaranteed to be bug free and production quality. The code provided here is solely for the purpose of learning. This is NOT intended to be used in production environment. You must adapt the code to work with your custom application.
 
