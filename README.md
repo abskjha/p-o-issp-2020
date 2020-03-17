@@ -35,6 +35,18 @@ drive.mount('/content/drive')
 
 - To run the EEG experiments, you would require to download the dataset from the source directly sent to you.
 
+## Sequence
+
+(There's no sequence as such regarding which tutorial to run first. If you are new to python you can follow the following sequence:)
+
+- Basics_Python.ipynb
+- Basics_Visualization_matplotlib.ipynb
+- Basic_keras.ipynb
+- MNIST_digit_classification_using_keras.ipynb
+- CNN_S_D.ipynb
+
+
+
 ## Disclaimer
 
 This sample code is only a sample and is NOT guaranteed to be bug-free and production quality. The code provided here is solely for the purpose of learning. This is NOT intended to be used in production environment. You must adapt the code to work with your custom application.
